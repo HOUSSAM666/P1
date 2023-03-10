@@ -1,0 +1,17 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+package dao;
+
+public class DaoImpl implements IDao {
+    public DaoImpl() {
+    }
+
+    public double getData() {
+        System.out.println("version base de donnees:");
+        double temp = Math.random() * 40.0;
+        return temp;
+    }
+}
