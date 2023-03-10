@@ -1,0 +1,19 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+package ext.Dao.ext;
+
+import dao.IDao;
+
+public class DaoImpl2 implements IDao {
+    public DaoImpl2() {
+    }
+
+    public double getData() {
+        System.out.println("Version Capteurs");
+        double temp = 1000.0;
+        return 0.0;
+    }
+}
